@@ -1,0 +1,86 @@
+[INFO   ] Logger: Record log in /home/pi/.kivy/logs/kivy_18-08-05_6.txt
+[INFO   ] Kivy: v1.10.1.dev0, git-6c7fce6, 20180528
+[INFO   ] Python: v2.7.13 (default, Nov 24 2017, 17:33:09) 
+[GCC 6.3.0 20170516]
+[INFO   ] Factory: 194 symbols loaded
+[DEBUG  ] Cache: register <kv.lang> with limit=None, timeout=None
+[DEBUG  ] Cache: register <kv.image> with limit=None, timeout=60
+[DEBUG  ] Cache: register <kv.atlas> with limit=None, timeout=None
+[INFO   ] Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+[DEBUG  ] Cache: register <kv.texture> with limit=1000, timeout=60
+[DEBUG  ] Cache: register <kv.shader> with limit=1000, timeout=3600
+[INFO   ] Text: Provider: sdl2
+[INFO   ] Window: Provider: egl_rpi
+[DEBUG  ] Window: Actual display size: 800x480
+[INFO   ] GL: Using the "OpenGL ES 2" graphics system
+[DEBUG  ] GL: glShaderBinary is not available
+[INFO   ] GL: Backend used <gl>
+[INFO   ] GL: OpenGL version <OpenGL ES 2.0>
+[INFO   ] GL: OpenGL vendor <Broadcom>
+[INFO   ] GL: OpenGL renderer <VideoCore IV HW>
+[INFO   ] GL: OpenGL parsed version: 2, 0
+[INFO   ] GL: Shading version <OpenGL ES GLSL ES 1.00>
+[INFO   ] GL: Texture max size <2048>
+[INFO   ] GL: Texture max units <8>
+[DEBUG  ] Shader: Fragment compiled successfully
+[DEBUG  ] Shader: Vertex compiled successfully
+[DEBUG  ] ImageSDL2: Load </usr/local/lib/python2.7/dist-packages/kivy/data/glsl/default.png>
+[INFO   ] Window: virtual keyboard not allowed, single mode, not docked
+[DEBUG  ] Resource: add </usr/share/fonts> in path list
+[DEBUG  ] Resource: add </usr/share/fonts/type1> in path list
+[DEBUG  ] Resource: add </usr/share/fonts/type1/gsfonts> in path list
+[DEBUG  ] Resource: add </usr/share/fonts/X11> in path list
+[DEBUG  ] Resource: add </usr/share/fonts/X11/100dpi> in path list
+[DEBUG  ] Resource: add </usr/share/fonts/X11/util> in path list
+[DEBUG  ] Resource: add </usr/share/fonts/X11/Type1> in path list
+[DEBUG  ] Resource: add </usr/share/fonts/X11/encodings> in path list
+[DEBUG  ] Resource: add </usr/share/fonts/X11/encodings/large> in path list
+[DEBUG  ] Resource: add </usr/share/fonts/cmap> in path list
+[DEBUG  ] Resource: add </usr/share/fonts/truetype> in path list
+[DEBUG  ] Resource: add </usr/share/fonts/truetype/liberation2> in path list
+[DEBUG  ] Resource: add </usr/share/fonts/truetype/openoffice> in path list
+[DEBUG  ] Resource: add </usr/share/fonts/truetype/lato> in path list
+[DEBUG  ] Resource: add </usr/share/fonts/truetype/freefont> in path list
+[DEBUG  ] Resource: add </usr/share/fonts/truetype/droid> in path list
+[DEBUG  ] Resource: add </usr/share/fonts/truetype/dejavu> in path list
+[DEBUG  ] Resource: add </usr/share/fonts/truetype/noto> in path list
+[DEBUG  ] Resource: add </usr/share/fonts/truetype/piboto> in path list
+[DEBUG  ] Resource: add </usr/local/share/fonts> in path list
+[DEBUG  ] Resource: add </usr/local/lib/python2.7/dist-packages/kivy/data/fonts> in path list
+[DEBUG  ] ImageSDL2: Load </home/pi/.project/cl-iot/final/Screen0.PNG>
+[INFO   ] GL: NPOT texture support is available
+[DEBUG  ] ImageSDL2: Load </home/pi/.project/cl-iot/final/Screen1.PNG>
+[DEBUG  ] ImageSDL2: Load </home/pi/.project/cl-iot/final/Screen2.PNG>
+[DEBUG  ] ImageSDL2: Load </home/pi/.project/cl-iot/final/Screen4.PNG>
+[DEBUG  ] ImageSDL2: Load </home/pi/.project/cl-iot/final/Screen6.PNG>
+[DEBUG  ] App: Loading kv <.project/cl-iot/final/main.kv>
+[DEBUG  ] App: kv <.project/cl-iot/final/main.kv> not found
+[INFO   ] OSC: using <multiprocessing> for socket
+[DEBUG  ] Base: Create provider from mouse
+[DEBUG  ] Base: Create provider from probesysfs,provider=hidinput
+[DEBUG  ] ProbeSysfs: using probesysfs!
+[DEBUG  ] ProbeSysfs: found device: FT5406 memory based driver at /dev/input/event0
+[INFO   ] ProbeSysfs: device match: /dev/input/event0
+[INFO   ] HIDInput: Read event from </dev/input/event0>
+[DEBUG  ] Base: Create provider from probesysfs,provider=mtdev
+[DEBUG  ] ProbeSysfs: using probesysfs!
+[DEBUG  ] ProbeSysfs: found device: FT5406 memory based driver at /dev/input/event0
+[INFO   ] ProbeSysfs: device match: /dev/input/event0
+[INFO   ] MTD: Read event from </dev/input/event0>
+[INFO   ] Base: Start application main loop
+[INFO   ] HIDMotionEvent: using <FT5406 memory based driver>
+[INFO   ] HIDMotionEvent: <FT5406 memory based driver> range ABS X position is 0 - 800
+[INFO   ] MTD: </dev/input/event0> range position X is 0 - 800
+[INFO   ] HIDMotionEvent: <FT5406 memory based driver> range ABS Y position is 0 - 480
+[INFO   ] MTD: </dev/input/event0> range position Y is 0 - 480
+[INFO   ] HIDMotionEvent: <FT5406 memory based driver> range position X is 0 - 800
+[INFO   ] MTD: </dev/input/event0> range touch major is 0 - 0
+[INFO   ] HIDMotionEvent: <FT5406 memory based driver> range position Y is 0 - 480
+[INFO   ] MTD: </dev/input/event0> range touch minor is 0 - 0
+[INFO   ] MTD: </dev/input/event0> range pressure is 0 - 255
+[INFO   ] MTD: </dev/input/event0> axes invertion: X is 0, Y is 0
+[INFO   ] MTD: </dev/input/event0> rotation set to 0
+[DEBUG  ] Atlas: Load </usr/local/lib/python2.7/dist-packages/kivy/data/images/defaulttheme.atlas>
+[DEBUG  ] Atlas: Need to load 1 images
+[DEBUG  ] Atlas: Load </usr/local/lib/python2.7/dist-packages/kivy/data/images/defaulttheme-0.png>
+[DEBUG  ] ImageSDL2: Load </usr/local/lib/python2.7/dist-packages/kivy/data/images/defaulttheme-0.png>
