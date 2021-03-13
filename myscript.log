@@ -1,0 +1,22 @@
+/home/pi/Desktop/final/myscript.py: line 1: import: command not found
+from: can't read /var/mail/kivy.app
+from: can't read /var/mail/kivy.lang
+from: can't read /var/mail/kivy.uix.screenmanager
+from: can't read /var/mail/kivy.uix.image
+from: can't read /var/mail/kivy.uix.label
+from: can't read /var/mail/kivy.config
+from: can't read /var/mail/kivy.core.window
+from: can't read /var/mail/kivy.properties
+from: can't read /var/mail/kivy.uix.boxlayout
+from: can't read /var/mail/kivy.event
+/home/pi/Desktop/final/myscript.py: line 12: import: command not found
+/home/pi/Desktop/final/myscript.py: line 13: import: command not found
+/home/pi/Desktop/final/myscript.py: line 14: import: command not found
+from: can't read /var/mail/kivy.clock
+/home/pi/Desktop/final/myscript.py: line 16: import: command not found
+/home/pi/Desktop/final/myscript.py: line 17: import: command not found
+/home/pi/Desktop/final/myscript.py: line 18: import: command not found
+/home/pi/Desktop/final/myscript.py: line 19: import: command not found
+/home/pi/Desktop/final/myscript.py: line 20: import: command not found
+/home/pi/Desktop/final/myscript.py: line 22: syntax error near unexpected token `'kivy','
+/home/pi/Desktop/final/myscript.py: line 22: `Config.set('kivy', 'log_level', 'debug')'

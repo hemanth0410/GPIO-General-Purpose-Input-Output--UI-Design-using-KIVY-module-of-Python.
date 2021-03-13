@@ -1,0 +1,22 @@
+    BoxLayout:
+        Button:
+            id: MainScreen_f_bt
+            on_release: app.get_running_app().stop()
+            on_touch_down: app.get_running_app().stop()
+            text: 'Exit'
+            pos: 100,0
+            size_hint: .2, .2
+            font_size: 30
+            background_color: (0.06, 0.13, 1.0, 1.0)
+
+    BoxLayout:
+        Button:
+            on_release: app.root.current = "%s" % (root.temp_en)
+            on_touch_down: app.root.current = "%s" % (root.temp_en)
+            on_press: app.root.current = 'main1' 
+            text: 'OK'
+            pos: 320,20
+            font_size: 30
+            size_hint: .2, .2
+            color: (1.0, 1.0, 1.0, 1.0)
+            background_color: (0.06, 0.13, 1.0, 1.0)

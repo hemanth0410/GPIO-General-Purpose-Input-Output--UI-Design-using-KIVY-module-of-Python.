@@ -1,0 +1,2 @@
+{"machine_details": {"machine_no": "1", "temp_en": "main2", "duration": "33", "default_option": "cold", "PreWashTime": "2", "powercut": "2"}}
+{"backup": {"countdown": "3", "screentobe": "main4", "order": "292", "timenow": "2018-07-11 11:29:24.957899"}}

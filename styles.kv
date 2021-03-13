@@ -1,0 +1,213 @@
+#: import sm kivy.uix.screenmanager
+
+ScreenManagement:
+    transition: sm.SlideTransition()
+    MainScreen0:
+    MainScreen1:
+    MainScreen2:
+    MainScreen3:
+    MainScreen4:
+    MainScreen5:
+
+<MainScreen0>:
+    name: 'main0'
+    cols: 1
+
+    BoxLayout:
+        Button:
+            id: S2_b_bt
+            on_release: app.root.current = 'main1'
+            on_touch_down: app.root.current = 'main1'
+            text: 'Press to Continue...'
+            pos: 0,0
+            size: 800, 480
+            font_size: 40
+            size_hint: None, None
+            color: (1.0, 1.0, 1.0, 1.0)
+            background_color: (0.06, 0.13, 1.0, 1.0)
+
+
+<MainScreen1>:
+    name: 'main1'
+    cols: 3
+
+    BoxLayout:
+    	orientation: 'vertical'
+        Image:
+            size_hint: None, None
+            pos: 0,0
+            size: 800, 480
+            allow_stretch: True
+            source: 'Screen0.PNG'
+
+    BoxLayout:
+        Button:
+            id: S2_b_bt
+            on_release: app.root.current = 'main2'
+            on_touch_down: app.root.current = 'main2'
+            text: 'OK'
+            pos: 0,0
+            size: 800, 100
+            font_size: 30
+            size_hint: None, None
+            color: (1.0, 1.0, 1.0, 1.0)
+            background_color: (0.06, 0.13, 1.0, 1.0)
+
+<MainScreen2>:
+    id: MainScreen2Id
+    name: 'main2'
+    cols: 3
+
+    BoxLayout:
+        orientation: 'vertical'
+        Image:
+            size_hint: None, None
+            allow_stretch: True
+            pos: 0, 0
+            size: 800, 480
+            source: 'Screen1.PNG'
+
+    BoxLayout:
+        Button:
+            id: S2_b_bt
+            on_release: app.root.current = 'main1'
+            on_touch_down: app.root.current = 'main1'
+            text: 'BACK'
+            pos: 0, 0
+            font_size: 30
+            size: 800, 100
+            size_hint: None, None
+            color: (1.0, 1.0, 1.0, 1.0)
+            background_color: (0.06, 0.13, 1.0, 1.0)
+
+
+<MainScreen3>:
+    name: 'main3'
+    cols: 1
+
+    BoxLayout:
+        orientation: 'vertical'
+        Image:
+            id: Screen2
+            size_hint: None, None
+            pos: 0, 0
+            size: 800, 480
+            source: 'Screen2.PNG'
+        
+        Label:
+            id: username
+            text: 'Please Wait'
+            font_size: "45sp"
+            pos: root.x, 350
+            color: (0.0, 0.0, 1.0, 1.0)
+        
+        Label:
+            id: balance
+            text: 'Connecting...'
+            font_size: "40sp"
+            pos: root.x, 250 
+            color: (0.109, 0.445, 0.015, 1.0)
+
+        Label:
+            id: coins
+            text: ''
+            font_size: "40sp"
+            pos: root.x, 150 
+            color: (1.0, 0.1, 0.0, 1.0)
+
+        
+    BoxLayout:
+        Button:
+            id: S2_b_bt
+            on_release: app.root.current = 'main2'
+            on_touch_down: app.root.current = 'main2'
+            text: 'BACK'
+            pos: 0, 0
+            font_size: 30
+            size: 400, 100
+            size_hint: None, None
+            color: (1.0, 1.0, 1.0, 1.0)
+            background_color: (0.06, 0.13, 1.0, 1.0)
+
+        Button:
+            id: S2_f_bt
+            on_release: app.root.current = 'main4'
+            on_touch_down: app.root.current = 'main4' 
+            on_press: root.place_order()
+            text: 'CONFRIM'
+            pos: 400,0
+            size: 400, 100
+            font_size: 30
+            size_hint: None, None
+            color: (1.0, 1.0, 1.0, 1.0)
+            background_color: (0.06, 0.13, 1.0, 1.0)
+
+<MainScreen4>:
+    name: 'main4'
+    cols: 1
+
+    BoxLayout:
+        orientation: 'vertical'
+        Image:
+            id: ScreenBG
+            size_hint: None, None
+            pos: 0, 0
+            size: 800, 480
+            source: 'Screen4.PNG'
+
+        Label:
+            id: Timer
+            text: "%s:%s" % (root.minutes, root.seconds)
+            font_size: "100sp"
+            pos: root.x, 230
+            color: (0.0, 0.0, 0.0, 0.0)
+
+<MainScreen5>:
+    name: 'main5'
+    cols: 1
+    orientation: 'vertical' 
+
+    BoxLayout:
+    	orientation: 'vertical' 
+        Image:
+            id: ScreenBG
+            on_release: 
+            on_touch_down: 
+            size_hint: None, None
+            pos: 0, 0
+            size: 800, 480
+            source: 'Screen6.PNG'
+
+        Label:
+            id: Timer
+            text: "%s:%s" % (root.minutes, root.seconds)
+            font_size: "100sp"
+            pos: root.x, 230 
+            color: (0.0, 0.0, 0.0, 0.0)
+
+    BoxLayout:
+        Button:
+            id: S2_f_bt
+            on_release: app.root.current = 'main1'
+            on_touch_down: app.root.current = 'main1' 
+            text: 'EXIT'
+            pos: 0,0
+            size: 400, 100
+            font_size: 30
+            size_hint: None, None
+            color: (1.0, 1.0, 1.0, 1.0)
+            background_color: (0.06, 0.13, 1.0, 1.0)
+
+        Button:
+            id: StartBT
+            on_release: root.startscreen() 
+            on_touch_down: root.startscreen() 
+            on_release: self.disabled = True
+            on_touch_down: self.disabled = True
+            text: 'START'
+            pos: 400,100
+            font_size: 30
+            size: 400, 100
+            size_hint: None, None
+            color: (1.0, 1.0, 1.0, 1.0)
+            background_color: (0.06, 0.13, 1.0, 1.0)
